@@ -8,7 +8,7 @@ companies1=Companies('Lombard krediti üzrə ENDİRİM kampaniyası','Kampaniya 
             <li>Qiymətləndirmə xərci: <b>Pulsuz</b></li>
         </ul>
         <p>"Bank Respublika"da kredit götürmənin digər üstünlükləri çevik rəsmiləşdirmə və heç bir sığorta haqqının olmamasıdır.</p>
-        <p>Kampaniya <b>30.09.2022</b>-ci il tarixinədək qüvvədə olacaqdır.</p>""",'https://www.bankrespublika.az/uploads/lombard%20endirim%20post.jpg','https://www.bankrespublika.az/uploads/lombard%20endirim%20reliz.jpg,','ferdi','24/08/2022','22/08/2022','30/09/2022' )
+        <p>Kampaniya <b>30.09.2022</b>-ci il tarixinədək qüvvədə olacaqdır.</p>""",'/assets/images/lombard_endirim_post.jpeg','/assets/images/lombard_endirim_reliz.jpeg','ferdi','24/08/2022','22/08/2022','30/09/2022' )
 companies1.save()
 
 companies2=Companies('Bank Respublika 30 yaşı münasibətilə mikro kredit faizlərində 30% endirim elan edib!','Kampaniya çərçivəsində Bank Respublikaya müraciət edən iş adamları, mikro və aqro kredit faizlərində 30% ENDİRİM əldə edə biləcək!',"""
@@ -26,7 +26,7 @@ companies2=Companies('Bank Respublika 30 yaşı münasibətilə mikro kredit fai
         <p>Kredit ticarət, kənd təsərrüfatı, xidmət, istehsal və tikinti sahələrində sahibkarlıq fəaliyyəti ilə məşğul olan iş adamlarına təqdim olunur.</span></span></span></p>
         <p>"Bank Respublika"da kredit götürmənin digər üstünlükləri çevik rəsmiləşdirmə və heç bir sığorta haqqının olmamasıdır.</span></span></span></p>
         <p>Kampaniyadan yararlanmaq istəyən müştərilər, krediti onlayn olaraq Bank Respublika”nın <a href="https://www.bankrespublika.az/az/form/loanorderpage/nagd-pul-krediti">rəsmi saytından</a>, eləcə də WhatsApp-da Çat-Bot xidmətindən istifadə edərək <b>051 4 144 144 </b>nömrəsinə “Kredit” yazıb göndərərək sifariş edə bilərlər.</p>
-        <p>Bank Respublika 1992-ci ildə yaradılıb və Azərbaycanın beş aparıcı bankından biridir. Bankın səhmdarları arasında Almaniyanın ən böyük maliyyə institutu - Sparkassen International Development Trust (Sparkassen-Finanzgruppe maliyyə qrupunun üzvü) var. Bank Azərbaycanın bank sektorunda ən yüksək beynəlxalq reytinqlərdən birinə - "Müsbət" proqnozlu "B3" reytinqinə (Moody's) malikdir.</p>""",'https://www.bankrespublika.az/uploads/Maksimal%20endirim_30_fb.jpg','https://www.bankrespublika.az/uploads/Maksimal%20endirim_30_reliz.png,','biznes','06/05/2022','06/05/2022','01/08/2022' )
+        <p>Bank Respublika 1992-ci ildə yaradılıb və Azərbaycanın beş aparıcı bankından biridir. Bankın səhmdarları arasında Almaniyanın ən böyük maliyyə institutu - Sparkassen International Development Trust (Sparkassen-Finanzgruppe maliyyə qrupunun üzvü) var. Bank Azərbaycanın bank sektorunda ən yüksək beynəlxalq reytinqlərdən birinə - "Müsbət" proqnozlu "B3" reytinqinə (Moody's) malikdir.</p>""",'/assets/images/maksimal_endirim_30_fb.jpeg','/assets/images/maksimal_endirim_30_reliz.png','biznes','06/05/2022','06/05/2022','01/08/2022' )
 companies2.save()
 
 

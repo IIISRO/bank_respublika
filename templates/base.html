@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Bank Respublika</title>
+  <link rel="shortcut icon" href="{{ url_for('static', filename='images/picture.jpeg') }}">
   <!-- CSS only -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -166,7 +167,7 @@
                             <a href="https://www.bankrespublika.az/az/pages/daxili-komiteler">Daxili komitələr</a>                                        
                             <a href="https://www.bankrespublika.az/az/pages/mesuliyyetli-kreditlesme-siyaseti">Məsuliyyətli kreditləşmə siyasəti</a>                                         
                             <a href="https://www.bankrespublika.az/az/career/">İnsan resursları</a>                                      
-                            <a href="https://www.bankrespublika.az/az/news">Xəbərlər</a>    
+                            <a href="/news">Xəbərlər</a>    
                     </div>
                 </div>
             </li>
@@ -217,7 +218,7 @@
                             <a href="https://www.bankrespublika.az/az/posts/compare">Kartların müqayisəsi</a>
                             <a href="/cartoffer">Onlayn kart sifarişi</a>
                             <a href="https://www.bankrespublika.az/az/electronic-services">Əlavə xidmətlər</a>
-                            <a href="https://www.bankrespublika.az/az/form/cardrenew">Kartın onlayn uzadılması</a>
+                            <a href="/cardrenew">Kartın onlayn uzadılması</a>
                             <a href="https://www.bankrespublika.az/az/pages/tariffs">Tariflər / Limitlər / MCC</a>
                             <a href="https://www.bankrespublika.az/az/pages/tehlukesizlik-qaydalari_1270">Təhlükəsizlik qaydaları</a>
                         </div>
@@ -480,6 +481,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="{{ url_for('static', filename='js/base.js') }}"></script>
 
 
   <script>

@@ -4,11 +4,12 @@
     padding: 20px;
 }
 .main{
-    height: 600px;
+   
+    height: 493px;
     border-radius: 10px;
     background: white;
     position: absolute;
-    top: 50px;
+    top: 118px;
     right: 10px;
     left: 10px;
     
@@ -92,6 +93,7 @@ input:focus{
     top: 31px;
 }
 .reload-btn{
+    border: 0;
     position: absolute;
     right: 0;
     width: 30px;
@@ -100,7 +102,7 @@ input:focus{
     right: -25px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     border-radius: 50%;
     /* flex-direction: column; */
     color: white;

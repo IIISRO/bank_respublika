@@ -4,8 +4,10 @@
 {%endblock%}
 {%block content%}
 <div class="body">
+    <h3 style="    position: absolute;top: 50px;left: 83px;">Kartın onlayn uzadılması</h3>
     <div class="main">
         <form method="POST">
+            {{form.csrf_token}}
             <div class="row">
                 <div class="col-md-4">
                     <label for="">Kartın son 8 rəqəmi:</label>
@@ -89,7 +91,7 @@
 
                     <div class="captcha">
                         <span id="captcha"></span>
-                        <button class="reload-btn ms-4"><i style="font-size:18px;" class="fas fa-redo-alt"></i></button>
+                        <button class="reload-btn ms-4"><i style="font-size:13px;" class="fas fa-redo-alt"></i></button>
 
                     </div>
                 </div>

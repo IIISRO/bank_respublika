@@ -7,10 +7,10 @@
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 
   <div class="carousel-inner">
-
+   
 
     <div class="carousel-item active"
-      style="background-image: url('https://www.bankrespublika.az/uploads/Mikro_maksimal%20endirim_30.png'); background-size:cover; height:600px; width:100%">
+      style="background-image: url(../assets/images/Mikro_maksimal_endirim_30.png); background-size:cover; height:600px; width:100%">
 
       <div class="pause">
         <div class="progress-container">
@@ -32,7 +32,7 @@
 
     </div>
     <div class="carousel-item"
-      style="background-image: url('https://www.bankrespublika.az/uploads/Bplus_slider_visa.png'); background-size:cover; height:600px; width:100%">
+      style="background-image: url(../assets/images/kredit\ xetti_Slider.png); background-size:cover; height:600px; width:100%">
       <div class="pause">
         <div class="progress-container">
           <div style="animation-duration: 2s" class="progress"></div>
@@ -55,7 +55,7 @@
     </div>
 
     <div class="carousel-item"
-      style="background-image: url('https://www.bankrespublika.az/uploads/kredit%20xetti_Slider.png'); background-size:cover; height:600px; width:100%">
+      style="background-image: url(../assets/images/Bplus_slider_visa.png); background-size:cover; height:600px; width:100%">
       <div class="pause">
         <div class="progress-container">
           <div style="animation-duration: 2s" class="progress"></div>
@@ -77,7 +77,7 @@
       </div>
     </div>
     <div class="carousel-item"
-      style="background-image: url('https://www.bankrespublika.az/uploads/Neo%20qalaktika_Slider%20.png'); background-size:cover; height:600px; width:100%">
+      style="background-image: url(../assets/images/Neo\ qalaktika_Slider\ .png); background-size:cover; height:600px; width:100%">
       <div class="pause">
         <div class="progress-container">
           <div style="animation-duration: 2s" class="progress"></div>
@@ -134,15 +134,15 @@
       <ul>
         <li>Alis/Satis</li>
         <li><span>Eur</span>
-          1.68 / 1.7</li>
+          1.68 / {{currency["ValCurs"]["ValType"][1]["Valute"][1]["Value"]}}</li>
 
 
         <li> <span>GBP</span>
-          1.68 /1.7</li>
+          1.851  /{{currency["ValCurs"]["ValType"][1]["Valute"][34]["Value"]}}</li>
         <li> <span>RUB</span>
-          1.68 / 1.7</li>
+          0.024  / {{currency["ValCurs"]["ValType"][1]["Valute"][16]["Value"]}}</li>
         <li> <span>USD</span>
-          1.68 / 1.7</li>
+          1.601 / {{currency["ValCurs"]["ValType"][1]["Valute"][0]["Value"]}}</li>
       </ul>
     </div>
 
@@ -254,8 +254,8 @@
       <div class="row">
         <div class="col-md-3">
           <div class="slideshow-container">
-            <h3 class="blue" style="color: #a7a7a7; font-size:initial;">{{category[0].product}}</h3>
-            {%for i  in product %}
+            <!-- <h3 class="blue" style="color: #a7a7a7; font-size:initial;">{{category[0].product}}</h3> -->
+            <!-- {%for i  in product %}
             {% if i.category_id==category[0].id%}
              <div class="mySlides mt-5 blue">
 
@@ -268,7 +268,7 @@
               {%endif%}
             </div>
             {% endif%}
-            {% endfor%}
+            {% endfor%} -->
 
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
@@ -284,13 +284,13 @@
         <div class="col-md-3">
           <div class="card blue">
             <div class="card-body blue">
-              <h3 class="card-title white">{{category[2].product}}</h3>
+              <!-- <h3 class="card-title white">{{category[2].product}}</h3>
                {%for i in product %}
                {% if i.category_id==category[2].id %}
 
               <p class="card-text mt-5 c white">{{i.title}}</p>
               {%endif%}
-              {%endfor%}
+              {%endfor%} -->
 
             </div>
           </div>
@@ -299,19 +299,19 @@
         <div class="col-md-3 ">
           <div class="card blue">
             <div class="card-body blue">
-              <h3 class="card-title white ">{{category[1].product}}</h3>
+              <!-- <h3 class="card-title white ">{{category[1].product}}</h3>
               {%for i in product %}
               {% if i.category_id==category[1].id %}
               <p class="card-text mt-5 white ">{{i.title}} </p>
               {%endif%}
-              {%endfor%}
+              {%endfor%} -->
 
             </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="slideshow-containers">
-            <h3 class="blues" style="color: #a7a7a7; font-size:initial;">{{category[3].product}}</h3>
+            <!-- <h3 class="blues" style="color: #a7a7a7; font-size:initial;">{{category[3].product}}</h3>
            {% for product in product%}
            {% if product.category_id==category[3].id   %}
             <div class="mySlidess mt-5">
@@ -321,7 +321,7 @@
               <p>{{product.description}}</p>
             </div>
             {% endif %}
-            {% endfor %}
+            {% endfor %} -->
 
             
 
@@ -375,7 +375,7 @@
         <div class="slideshow-containerss">
 
           <div
-            style="background-image: url(https://www.bankrespublika.az/uploads/lombard%20endirim%20post.jpg); background-size:cover"
+            style="background-image: url(../assets/images/lombard\ endirim\ post.jpeg); background-size:cover"
             class="mySlidesss ">
             <div class="imgs">
               <a style="position: absolute;
@@ -406,22 +406,9 @@
             style="background-image: url(https://www.bankrespublika.az/uploads/lombard%20endirim%20post.jpg); background-size:cover"
             class="mySlidesss ">
             <div class="imgs">
-              <a style="position: absolute;
-              z-index: 2;
-              right: 15px;
-              top: 15px;
-              text-decoration: underline;
-              color: white;"
+              <a style="position: absolute;z-index: 2;right: 15px;top: 15px;text-decoration: underline;color: white;"
               href="">Butun kompanyalar</a>
-              <div style=" position: absolute;
-              z-index: 2;
-              height: 60%;
-              width: 90%;
-              margin-left: 20px;
-              display: flex;
-              flex-direction: column;
-              justify-content: space-around;
-              top: 22%;">
+              <div style=" position: absolute;z-index: 2;height: 60%;width: 90%;margin-left: 20px;display: flex;flex-direction: column;justify-content: space-around;top: 22%;">
                 <h3>Lombard krediti üzrə ENDİRİM kampaniyası</h3>
                 <p>Kampaniya çərçivəsində müştərilər daha az çəkili qızılı girov qoyub, daha böyük məbləğdə krediti
                   SƏRFƏLİ ŞƏRTLƏRLƏ əldə edə biləcək!</p>
@@ -431,7 +418,7 @@
 
           </div>
           <div
-            style="background-image: url(https://www.bankrespublika.az/uploads/mekteb%20nagd%20kampaniya_fb.jpg); background-size:cover"
+            style="background-image: url(../assets/images/mekteb\ nagd\ kampaniya_fb.jpeg); background-size:cover"
             class="mySlidesss ">
             <div class="imgs">
               <a style="position: absolute;
@@ -486,7 +473,7 @@
 
 
 <div class="slider center">
-  {%for news in news%}
+  <!-- {%for news in news%}
   <div class="clip">
     <div class="card mb-3">
       <div class="row g-0">
@@ -497,7 +484,7 @@
         </div>
         <div class="col-md-8">
           <div style="padding: unset !important;" class="card-body">
-            <a href="/news/{{news.id}}">
+            <a href="/news/{{news.title}}">
               <h5 style=" width: 80%;" class="card-title">{{news.title}}</h5>
             </a>
             {% if news.description%}
@@ -521,7 +508,7 @@
 
 
   </div>
-  {%endfor%}
+  {%endfor%} -->
 </div>
 </div>
 

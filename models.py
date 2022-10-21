@@ -8,8 +8,6 @@ class  News(db.Model):
     url=db.Column(db.Text,nullable=False)
     created_At=db.Column(db.Text,nullable=False)
     
-    
-    
     def __init__(self,title,description,url,text,created_at):
         self.title=title
         self.description=description
@@ -17,15 +15,12 @@ class  News(db.Model):
         self.url=url
         self.created_at=created_at
         
-       
-        
-       
     def __repr__(self):
         return self.title
     def save(self):
         db.session.add(self)
         db.session.commit()
-        
+ 
 class Contact(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     reqem=db.Column(db.Text,nullable=False)
@@ -47,6 +42,7 @@ class Contact(db.Model):
     def save(self):
         db.session.add(self)
         db.session.commit()
+
 class  Category(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     product=db.Column(db.Text,nullable=False)
@@ -59,6 +55,7 @@ class  Category(db.Model):
     def save(self):
         db.session.add(self)
         db.session.commit()
+
 class  Products(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title=db.Column(db.Text,nullable=False)
@@ -75,6 +72,7 @@ class  Products(db.Model):
     def save(self):
         db.session.add(self)
         db.session.commit()
+
 
 
 class Companies(db.Model):

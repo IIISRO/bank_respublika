@@ -48,34 +48,7 @@ $('.owl-carousel').owlCarousel({
   autoWidth: true,
   items: 4
 })
-// const biznesBtn = document.getElementById("biznesbtn")
-// const ferdiBtn = document.getElementById("ferdibtn")
-// const ferdi = document.getElementById("ferdi")
-// const biznes = document.getElementById("biznes")
-// const Modal = document.getElementsByClassName("modal")[0]
-// const deleteModal = document.getElementById("deletemodal")
-// const openModal = document.getElementsByClassName("openmodal")[0]
-// console.log(Modal);
-// console.log(deleteModal);
-// deleteModal.addEventListener("click", () => {
-//   Modal.style.display = "none"
-// })
-// openModal.addEventListener("click", () => {
-//   Modal.style.display = "block"
-// })
-// biznesBtn.addEventListener("click", () => {
-//   ferdi.setAttribute("style", "display:none !important;")
-//   biznes.setAttribute("style", "display:flex !important;")
-//   biznesBtn.setAttribute("style", "border-bottom:1px solid blue !important")
-//   ferdiBtn.setAttribute("style", "border-bottom:0 !important")
-// })
-// ferdiBtn.addEventListener("click", () => {
-//   ferdi.setAttribute("style", "display:flex !important;")
-//   biznes.setAttribute("style", "display:none !important;")
-//   ferdiBtn.setAttribute("style", "border-bottom:1px solid blue !important")
-//   biznesBtn.setAttribute("style", "border-bottom:0 !important")
 
-// })
 const range = document.getElementById("exampleInputEmail1")
 const input = document.getElementById("customRange1")
 const range1 = document.getElementById("exampleInputEmail2")

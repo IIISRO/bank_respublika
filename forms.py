@@ -1,7 +1,9 @@
+from models import *
 from flask_wtf import FlaskForm
 from wtforms import StringField,SelectField,BooleanField,RadioField,IntegerField,DecimalField,validators
 from wtforms.validators import DataRequired,ValidationError,Length,NumberRange,Email
-from models import *
+
+
 
 
 
@@ -9,7 +11,7 @@ from models import *
 class Card(FlaskForm):
     reqem=IntegerField(validators=[DataRequired()])
     sened=IntegerField(validators=[DataRequired()])
-    nomre=DecimalField(validators=[DataRequired(),NumberRange(min=11111111)])
+    nomre=IntegerField(validators=[DataRequired(),NumberRange(min=11111111)])
     seriya= SelectField(
         u'Industry Type',
         choices = [('AZE', 'AZE'), ('AA', 'AA'),],validators=[DataRequired()]
@@ -23,7 +25,7 @@ class Card(FlaskForm):
     checkbox= RadioField('Label', choices=[('value','1 gun'),('value1','3 gun')])
     filial=SelectField(
         u'Industry Type',
-        choices = [("", " Filiali secin"),(" 'Agcabedi' filiali", " 'Agcabedi' filiali"),(" 'Naxcivan' filiali", " 'Naxcivan' filiali"),(" 'Seki' filiali", " 'Seki' filiali")],validators=[DataRequired()]
+        choices = [(filial.filial,filial.filial) for filial in Filiallar.query.all()],validators=[DataRequired()]
     )
  
 
