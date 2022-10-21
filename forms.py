@@ -1,7 +1,3 @@
-from ast import operator
-from random import choices
-
-from xml.dom import ValidationErr
 from flask_wtf import FlaskForm
 from wtforms import StringField,SelectField,BooleanField,RadioField,IntegerField,DecimalField,validators
 from wtforms.validators import DataRequired,ValidationError,Length,NumberRange,Email
